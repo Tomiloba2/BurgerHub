@@ -1,0 +1,52 @@
+/*variables*/
+:root{
+    --primary:#0f0e00;
+    --secondary:#afa105;
+    --success:#fff;
+    --error:#f4511e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    font-family: serif;
+    transition: all ease-in-out 0.3s;
+}
+nav ul li:hover{
+    font-family: algerian;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: #f4511e;
+}
+.search{
+    position: relative;
+}
+#search{
+    position: absolute;
+    top: 4w;
+    right: 2vw;
+    background-color:grey;
+    border-radius: 5px;
+    display: none;
+}
+.search:focus-within #search{
+    display: block;
+}
+.card-panel{
+    border: 3px solid var(--error);
+    transition: all ease-in-out 1s;
+}
+.card-panel:hover{
+    background-color:rgb(73, 36, 36) !important;
+}
+button{
+    border-radius: 10px !important;
+    margin: 1vw;
+    transition: ease-in-out 0.5s;
+}
+button:hover{
+    width:15vw;
+    background-color: #dd1e7d !important;
+}
