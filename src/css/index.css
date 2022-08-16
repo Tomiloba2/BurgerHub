@@ -50,3 +50,10 @@ button:hover{
     width:15vw;
     background-color: #dd1e7d !important;
 }
+.material-box:hover{
+    background-color: #f4511e;
+}
+#map{
+    width:100%;
+    height:80vh;
+}

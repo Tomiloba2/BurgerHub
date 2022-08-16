@@ -1,12 +1,19 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "description": "",
+  "description": "burgerhub restaurant webpage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["restaurant","Protein-shop"],
+  "keywords": [
+    "restaurant",
+    "burgerhub"
+  ],
   "author": "Tomiloba2",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies":{
+    "materialize":"^1.0.0",
+    "jquery":"^3.6.0"
+  }
 }
