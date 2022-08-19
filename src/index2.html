@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="keywords" content="Survey webpage">
+    <meta name="description" content="BurgerHub Survey webpage">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/survey.css">
+    <title>BurgerHub Survey</title>
+</head>
+<body style="
+            background-image: url('img/burger2.avif');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;">
+    <header class="container text-center mt-5">
+        <h2 class="text-warning">BurgerHub Restaurant</h2>
+        <h5 class="text-secondary">
+            Thank you for taking the time to contribute to our platform
+        </h5>
+    </header>
+    <main>
+    <div class="container bg-dark mt-5 text-info" id="opaque">
+        <form action="#" method="post">
+            <div class="input">
+                <label for="name" class="form-label text-light">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter Your Name" required/>
+            </div><br>
+            <!--next-->
+            <div class="input">
+                <label for="email" class="form-label text-light">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter Your Email" required/>
+            </div><br>
+            <!--next-->
+            <div class="input">
+                <label for="age" class="form-label text-light">Age(optional)</label>
+                <input type="number" id="age" class="form-control" placeholder="Enter Your Age"/>
+            </div><br>
+            <!--next-->
+            <div class="form-check">
+                <label for="recommend" class="form-check-label text-light">
+                    Would you recommend BurgerHub to a friend?
+                </label><br>
+                <input type="radio" class="form-check-input"/>Definitely <br>
+                <input type="radio" class="form-check-input"/>maybe<br>
+                <input type="radio" class="form-check-input"/>Not sure <br>
+            </div>
+            <div class="">
+                <label for="select" class="form-label text-light">
+                    What is Your favourite on our Menu?
+                </label>
+                <select id="select" class="form-select">
+                    <option value="Fried rice">Fried Rice</option>
+                    <option value="Chicken and Chips">Chicken and Chips</option>
+                    <option value="Burger and Fries">Burger and Fries</option>
+                    <option value="Shawama">Shawama</option>
+                    <option value="Fruit cocktail">Fruit cocktail</option>
+                    <option value="Ice cream">Ice cream</option>
+                </select>
+            </div>
+            <div class="form-check">
+                <label for="check" class="form-check-label text-light">
+                    What Would you like to be improved on(check all that applies)
+                </label><br>
+                <input type="checkbox" class="form-check-input"/>Our Menu <br>
+                <input type="checkbox" class="form-check-input"/>Customer Services <br>
+                <input type="checkbox" class="form-check-input"/>Our Blogs <br>
+                <input type="checkbox" class="form-check-input"/>Our buliding facilites <br>
+                <input type="checkbox" class="form-check-input"/>Our webpage <br>
+            </div>
+            <div class="input">
+                <label for="comment" class="form-label text-light">
+                    Any comment or suggestions?
+                </label>
+                <textarea  id="comment" cols="5" rows="3" class="form-control" placeholder="Enter your comment here"></textarea>
+            </div><br>
+            <div class="submit">
+                <button class="btn-success btn-lg" type="submit">submit</button>
+            </div>
+            <div class="clearfix">.</div>
+        </form>
+    </div>
+    </main>
+</body>
+</html>

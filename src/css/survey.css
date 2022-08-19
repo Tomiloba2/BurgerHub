@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*body{
+    background-image: url("src\img\burger2.avif");/*src\css\survey.css
+    
+}*/ 
+#opaque{
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    width: 60vw;
+}
+button{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    border-radius: 15px;
+    height: 7vh;
+}
+@media screen and (min-width:40em) {
+    #opaque{
+        width: 40vw;
+    }
+}
+/*label{
+    text-align: center !important;
+    color: ;
+    font-size: 2rem;
+}*/

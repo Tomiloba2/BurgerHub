@@ -8,6 +8,7 @@ This Project is a Restaurant webpage  named "Burgerhub"
 
 ## Libraries used
    1:Materialize css (this was used to design the UI of the webpage)
+   2:Bootstrap css(this was used to designthe survey page)
    2:jQuery (this was used to initailize the javaScript components of Materialize and also to create the animations)
    3:Maps javaScript API (this was used to import google maps)
 
@@ -25,3 +26,4 @@ the structure of the page=>1:home section
                            5:Reviews section
                            6:contact section
                            7:blogs section
+                           8:survey page

@@ -2,9 +2,10 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.slider').slider({indicators:false});
     $(".scrollspy").scrollSpy();
+    //$('.tooltip').toolTip();
     $('.material-box').materialbox();
 });
-$(window).scroll(function(){
+/*$(window).scroll(function(){
     if($(this).scrollTop()>100){
         $('#about').show(1000);
     }
@@ -46,7 +47,7 @@ $(window).scroll(function(){
     else{
         $('#blogs').hide(1000)
     }
-})
+})*/
 //maps
 function initMap(){
     // location of burgerhub
