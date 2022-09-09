@@ -51,13 +51,14 @@ $(document).ready(function(){
 //maps
 function initMap(){
     // location of burgerhub
-    const burgerOffice={lat:7.44565575035,lng:3.89995867097};
+    const burgerOffice={lat:7.4456,lng:3.8999};
     //create the map center
     const map=new google.maps.Map(
         document.getElementById('map'),{
             //set the zoom level of the map
             zoom:17.56,
-            center:burgerOffice
+            center:burgerOffice,
+            mapId:'d31b524293d08055'
         }
     )
 }
